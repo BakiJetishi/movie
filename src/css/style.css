@@ -14,7 +14,6 @@ html {
 body {
   font-family: 'Nunito Sans', sans-serif;
   background-image: linear-gradient(to bottom, #292929, #000000);
-  min-height: calc(100vh);
 }
 .container {
   max-width: 150rem;
@@ -398,9 +397,9 @@ body {
   border-radius: 5px;
 }
 .movie__title p {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
-.movie__ingredients {
+.movie__desc {
   padding: 5rem 8rem;
   font-size: 1.6rem;
   line-height: 1.4;
@@ -408,14 +407,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-.movie__icon {
-  height: 2rem;
-  width: 2rem;
-  fill: #f38e82;
-  margin-right: 1.1rem;
-  flex: 0 0 auto;
-  margin-top: 0.1rem;
 }
 .search-results {
   padding-bottom: 60px;
@@ -479,15 +470,36 @@ body {
   .bookmarks {
     width: 35rem;
   }
-
   .bookmarks .preview__title {
     font-size: 13px;
   }
   .bookmarks .release__date {
     font-size: 11px;
   }
+  .movie__details {
+    align-items: baseline;
+    position: relative;
+  }
   .movie__title {
     flex-direction: column;
     gap: 20px;
+  }
+  .movie__title span {
+    font-size: 1.5rem;
+  }
+  .heading--2 {
+    font-size: 1.7rem;
+  }
+  .heading--2 span {
+    font-size: 1.4rem;
+  }
+  .movie__desc {
+    padding: 3rem 5rem;
+  }
+  .heading--2 {
+    font-size: 1.5rem;
+  }
+  .movie__title p {
+    font-size: 1.1rem;
   }
 }

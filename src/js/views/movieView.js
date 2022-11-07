@@ -36,7 +36,7 @@ class MovieView extends View {
           <span>${this._data.title}</span>
           <p>${genres}</p>
         </div>
-        <div>
+        <div class="bookmark">
         <button class="btn--round btn--bookmark">
           <svg class="">
             <use href="src/img/icons.svg#icon-bookmark${this._data.bookmarked ? '-fill' : ''}"></use>
@@ -45,7 +45,7 @@ class MovieView extends View {
         </div>
       </div>
 
-      <div class="movie__ingredients">
+      <div class="movie__desc">
         <h2 class="heading--2">Release Date: <span>${this._data.release_date}</span></h2>
         <h2 class="heading--2">Rating: <span>${this._data.rating}</span></h2>
         <h2 class="heading--2">Overview</h2>
