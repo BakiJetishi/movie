@@ -1,1 +1,1 @@
-https://bakijetishi.github.io/movie/
+View demo: https://searchmovieinfos.netlify.app
